@@ -1,11 +1,12 @@
 
 
 // Part 1: Product Class
+//This class represents a product with name, price and quantity
 
 class Product {
 
     constructor(name, price, quantity) {
-
+//constructor to initialize product details
         this.name = name;
 
         this.price = price;
@@ -14,7 +15,7 @@ class Product {
 
     }
 
-
+//calculates total value (price x quantity)
 
     getTotalValue() {
 
@@ -22,7 +23,7 @@ class Product {
 
     }
 
-
+//Returns product details as a string
 
     toString() {
 
