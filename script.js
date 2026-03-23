@@ -11,6 +11,7 @@ class Product {
         this.name = name;
 
         //store product price
+        //Assign price to product
         this.price = price;
 
         //store product quantity
