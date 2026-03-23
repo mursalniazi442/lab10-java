@@ -1,5 +1,5 @@
 
-
+//Initialize expiration date
 // Part 1: Product Class
 //This class represents a product with name, price and quantity
 
