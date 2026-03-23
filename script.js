@@ -31,6 +31,7 @@ class Product {
 
 //Returns product details as a string
 //Convert product date to readable string
+//Method to show product details
 
     toString() {
 //Format product information
