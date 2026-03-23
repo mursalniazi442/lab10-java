@@ -98,7 +98,7 @@ class Store {
 
 
     addProduct(product) {
-
+//Adds product to inventory
         this.inventory.push(product);
 
     }
