@@ -10,6 +10,7 @@ class Product {
 //this.name = name;
         this.name = name;
 
+        //store product price
         this.price = price;
 
         this.quantity = quantity;
