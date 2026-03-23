@@ -84,7 +84,6 @@ class PerishableProduct extends Product {
 
 
 
-
 // Part 4: Store Class
 
 class Store {
@@ -95,7 +94,6 @@ class Store {
         this.inventory = [];
 
     }
-
 
 
     addProduct(product) {
@@ -186,7 +184,7 @@ Product.applyDiscount(store.inventory, 0.15);
 console.log("Total value after discount:", store.getInventoryValue());
 
 
-
+//Search for product by name
 let found = store.findProductByName("Milk");
 
 
