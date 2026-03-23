@@ -36,6 +36,7 @@ class Product {
     toString() {
 //Format product information
 //Return formatted product information
+//Override to include expiration date
         return `Product: ${this.name}, Price: $${this.price}, Quantity: ${this.quantity}`;
 
     }
