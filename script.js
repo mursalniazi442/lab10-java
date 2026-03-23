@@ -88,6 +88,7 @@ class PerishableProduct extends Product {
 // Part 4: Store Class
 
 class Store {
+    //Store class to manage inventory
 
     constructor() {
 
@@ -123,6 +124,7 @@ class Store {
 
     findProductByName(name) {
 
+        //Find product by name
         for (let product of this.inventory) {
 
             if (product.name === name) {
