@@ -7,6 +7,7 @@ class Product {
 
     constructor(name, price, quantity) {
 //constructor to initialize product details
+//this.name = name;
         this.name = name;
 
         this.price = price;
