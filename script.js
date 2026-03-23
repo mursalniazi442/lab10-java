@@ -43,6 +43,7 @@ class Product {
 
     // Part 3: Static Method
     //Applies discount to all products
+    //Static method to apply discount
 
     static applyDiscount(products, discount) {
 
