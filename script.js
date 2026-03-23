@@ -106,7 +106,7 @@ class Store {
 
 
     getInventoryValue() {
-
+//Calculate total inventory value
         let total = 0;
 
         this.inventory.forEach(product => {
