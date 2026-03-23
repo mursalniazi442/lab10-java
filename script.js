@@ -12,13 +12,14 @@ class Product {
 
         //store product price
         this.price = price;
-        
+
         //store product quantity
         this.quantity = quantity;
 
     }
 
 //calculates total value (price x quantity)
+//Return total value of the product
 
     getTotalValue() {
 
