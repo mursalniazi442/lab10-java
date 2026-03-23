@@ -28,6 +28,7 @@ class Product {
     }
 
 //Returns product details as a string
+//Convert product date to readable string
 
     toString() {
 
