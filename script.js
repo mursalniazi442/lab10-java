@@ -31,7 +31,7 @@ class Product {
 //Convert product date to readable string
 
     toString() {
-
+//Format product information
         return `Product: ${this.name}, Price: $${this.price}, Quantity: ${this.quantity}`;
 
     }
