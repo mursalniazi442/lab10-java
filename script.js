@@ -32,11 +32,12 @@ class Product {
     }
 
 
-
     // Part 3: Static Method
+    //Applies discount to all products
 
     static applyDiscount(products, discount) {
 
+        //Loop through each product
         products.forEach(product => {
 
             product.price = product.price - (product.price * discount);
@@ -46,9 +47,6 @@ class Product {
     }
 
 }
-
-
-
 
 
 // Part 2: PerishableProduct
